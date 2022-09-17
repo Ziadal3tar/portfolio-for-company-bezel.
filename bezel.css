@@ -1,0 +1,474 @@
+.main_color{
+    color: #00c3da;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    transition: 0.5s;
+}
+nav .nav-link{
+    color: rgb(0, 0, 0) !important
+
+}
+nav .nav-link:hover{
+    color: #787878 !important
+
+}
+nav .active{
+    color: #787878 !important;
+}
+
+/* ------------------------------ */
+
+header .carousel-caption h5{
+    
+    font-size: 100px;
+    z-index: 9999 !important;
+}
+header .carousel-caption p{
+    font-size: 20px;
+    z-index: 9999 !important;
+
+}
+#home .btn1 button{
+    border-radius: 5px;
+    border: 0px;
+}
+
+#home .btn1 .btn1a{
+    background-color: #00c3da;
+    border: 1px solid #00c3da;
+    
+}
+#home .btn1 .btn1b{
+    border: 1px solid white;
+    transition: 0.5s;
+    
+    
+}
+#home .btn1 .btn1b:hover{
+    background-color: white !important;
+    color: black !important;
+}
+/* ---about---- */
+#about p{
+    font-size: 1.3rem;
+    font-weight: 200;
+    
+color: rgb(120, 120, 120);
+    
+}
+#about h6{
+    font-weight: 500;
+    font-size: 13px;
+}
+#about button{
+    border: 0.2px rgba(0, 0, 0, 0.2) solid;
+    background-color: transparent;
+    transition: 0.5s;
+}
+#about button:hover{
+    color: white;
+    background-color: black;
+
+}
+#about p span:after{
+    content: "";
+    animation: typing 6s linear infinite ;
+    color: #00c3da;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+@keyframes typing{
+    0% {
+        content: "a|";
+    }
+    2% {
+        content: "ap|";
+    }
+    4% {
+        content: "app|";
+    }
+    6% {
+        content: "apps|";
+    }
+    8% {
+        content: "apps|";
+    }
+    10% {
+        content: "apps|";
+    }
+    12% {
+        content: "app|";
+    }
+    14% {
+        content: "ap|";
+    }
+    16% {
+        content: "a|";
+    }
+    18% {
+        content: "|";
+    }
+    20% {
+        content: "w|";
+    }
+    22% {
+        content: "we|";
+    }
+    24% {
+        content: "web|";
+    }
+    26% {
+        content: "webs|";
+    }
+    28% {
+        content: "websi|";
+    }
+    30% {
+        content: "websit|";
+    }
+    32% {
+        content: "website|";
+    }
+    34% {
+        content: "websites|";
+    }
+    36% {
+        content: "websites|";
+    }
+    38% {
+        content: "websites|";
+    }
+    40% {
+        content: "website|";
+    }
+    42% {
+        content: "websit|";
+    }
+    44% {
+        content: "websi|";
+    }
+    46% {
+        content: "websi|";
+    }
+    48% {
+        content: "webs|";
+    }
+    50% {
+        content: "web|";
+    }
+    52% {
+        content: "we|";
+    }
+    54% {
+        content: "w|";
+    }
+    56% {
+        content: "|";
+    }
+    58% {
+        content: "s|";
+    }
+    60% {
+        content: "so|";
+    }
+    62% {
+        content: "sof|";
+    }
+    64% {
+        content: "soft|";
+    }
+    66% {
+        content: "softw|";
+    }
+    68% {
+        content: "softwa|";
+    }
+    70% {
+        content: "softwar|";
+    }
+    72% {
+        content: "software|";
+    }
+    74% {
+        content: "softwares|";
+    }
+    76% {
+        content: "softwares|";
+    }
+    78% {
+        content: "softwares|";
+    }
+    80% {
+        content: "software|";
+    }
+    82% {
+        content: "softwar|";
+    }
+    84% {
+        content: "softwa|";
+    }
+    86% {
+        content: "softw|";
+    }
+    88% {
+        content: "soft|";
+    }
+    90% {
+        content: "sof|";
+    }
+    92% {
+        content: "so|";
+    }
+    94% {
+        content: "s|";
+    }
+    96% {
+        content: "|";
+    }
+}
+/* ---------- */
+.top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.top h2{
+    position: relative;
+    font-size: 6rem;
+    color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+
+}
+.top h3{
+    position: absolute;
+    color: black;
+    font-size: 2.25rem;
+    text-align: center;
+
+}
+
+#team .img1 .layer2{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 195, 218, 0.8);
+    
+    transition: 0.3s;
+    
+}
+#team .img1:hover .layer2{
+  
+    top: 0;
+}
+#team{
+    border-top: rgba(0, 0, 0, 0.08) 0.5px solid;
+    padding-top: 60px;
+    margin-top: 60px;
+    margin-bottom: 8rem;
+}
+/* ------------ */
+.top2{
+    position: relative;
+    display: flex;
+    align-items: center;    
+}
+.top2 h2{
+    position: relative;
+    font-size: 4.5rem;
+    color: rgba(255, 255, 255, 0.09);
+    text-align: center;
+    
+
+}
+.top2 h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    text-align: center;
+    bottom: 10px;
+    left: 8px;
+
+}
+#services{
+    background-color: rgb(120, 120, 120);
+    padding: 150px 0;
+   
+}
+@media (min-width: 768px) and (max-width:2000px) {
+
+.h4Ser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+}
+
+
+
+/* ----------------------- */
+#pricing .card h5:before{
+    content: "$";
+    position: absolute;
+    font-size: 15px;
+    top: 0px;
+    left: -5px;
+}
+
+#pricing .card h5{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#pricing .card h6{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    
+}
+#pricing .btn{
+    background-color: rgb(0, 195, 218);
+}
+#pricing .card{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    border-radius: 0px;
+}
+#pricing .card3{
+    position: absolute;
+    top: 21%;
+    width: 20%;
+    height: 70%;
+}
+/* ------------------ */
+.testimonial-content{
+    width: 60% !important;
+    height: 40vh !important;
+    background-color: rgb(255, 255, 255) !important;
+    position: relative;
+    border-radius: 5px;
+    
+    
+    
+}
+@media (min-width: 300px) and (max-width:991px) {
+
+    .testimonial-content img{
+        width: 30% !important;
+        position: absolute;
+        top: -45px;
+        
+        /* margin-bottom: 30px; */
+    }
+    .testimonial-content{
+        padding: 200px 0 !important;
+    }
+    
+    
+    }
+.testimonial-content img{
+    width: 13%;
+    position: absolute;
+    top: -45px;
+    
+    /* margin-bottom: 30px; */
+}
+#pri{
+    padding-top: 15rem;
+
+}
+.carousel-indicators button{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    
+}
+/* ----------- */
+#contact .top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+#contact .top h2{
+    color: #dee3e4;
+    font-size: 5rem;
+    width: 100%!important;
+    position: absolute ;
+    font-weight: 550;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    /* margin-top: 5rem; */
+}
+#contact .top h3{
+    font-size: 2.5rem;
+    color: #212529;
+    /* line-height: 1.5; */
+    width: 100% !important;
+    position: relative!important;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+#contact h4{
+    font-weight: 200 !important;
+    margin-bottom: 4rem !important;
+}
+.r{
+    width: 70%;
+}
+.r h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(37, 43, 51);
+}
+.input input{
+    width: 120%;
+    height: 50px;
+    border: rgba(37, 43, 51, .3) solid 1px;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.7rem;
+    padding-left: 20px;
+}
+.textarea textarea{
+    margin-top: 20px;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: rgba(37, 43, 51, .3) solid 1px;
+    border-radius: 5px;
+}
+.r button{
+   
+    margin-top: 20px;
+   
+    font-size: 1rem;
+    transition: 0.4s;
+    
+    background-color: rgb(32, 201, 151);
+    border-radius: 50rem;
+    color: white;
+
+
+
+}   
+.r button:hover{
+    background-color: rgb(27, 180, 134);
+}
